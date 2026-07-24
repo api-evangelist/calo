@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://registry.npmjs.org/@calo-design/cli
+note: >-
+  Calo (calo.app) is a consumer meal-subscription company with no public
+  developer API or client SDKs. The one first-party published package found is
+  an internal design-system tooling CLI (authenticates with a Calo email), not
+  an API client library — so it is catalogued here but intentionally NOT wired
+  as an SDKs pointer.
+packages:
+- language: javascript
+  registry: npm
+  name: "@calo-design/cli"
+  url: https://www.npmjs.com/package/@calo-design/cli
+  install: npm install @calo-design/cli
+  official: true
+  kind: design-system-tooling
+  description: >-
+    One-line setup for Calo design tooling: logs in with your Calo email and
+    installs the calo-design skill + design-system packages.

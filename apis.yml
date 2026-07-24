@@ -1,7 +1,15 @@
 aid: calo
 name: Calo
-description: Calo is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Calo is a food-tech company founded in Bahrain in 2019 that operates a
+  personalized meal-subscription and delivery service. Nutritionist-designed,
+  chef-prepared meals are portioned to each customer's health goals and lifestyle,
+  with 80+ new meal options rotated weekly and flexible pause/cancel anytime.
+  Built by chefs, nutritionists, and software engineers around proprietary
+  nutritional algorithms, Calo has expanded to seven markets across the GCC and
+  beyond (Saudi Arabia, United Arab Emirates, Kuwait, Qatar, Bahrain, and Oman),
+  ordered through its consumer apps. Calo is backed by 500 Global. It is a
+  consumer-facing product with no public developer API or documented client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/calo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://api-blog.calo.app/wp-content/uploads/2023/11/calo-og-image.png
 tags:
 - Company
+- Food
+- Meal Delivery
+- Meal Plans
+- Nutrition
+- Health
+- Subscription
+- Food Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://calo.app
+- type: Pricing
+  url: https://calo.app/en/plans-and-packages
+- type: Blog
+  url: https://calo.app/en/blog
+- type: Login
+  url: https://my.calo.app/
+- type: TermsOfService
+  url: https://calo.app/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://calo.app/privacy-policy
+- type: Packages
+  url: packages/calo-packages.yml
+- type: DomainSecurity
+  url: security/calo-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

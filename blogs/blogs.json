@@ -1,0 +1,14 @@
+{
+  "repo": "calo",
+  "feeds": [
+    {
+      "source": "https://calo.app/en/plans-and-packages",
+      "feed_url": "https://calo.app/en/plans-and-packages",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
